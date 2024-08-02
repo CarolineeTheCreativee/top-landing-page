@@ -9,3 +9,40 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
+.hero-section, 
+.info-section,
+.quote-section,
+.signup-section {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container,
+.info-container,
+.quote-container,
+.signup-container {
+    border: 1px solid greenyellow;
+    width: 75%;
+}
+
+.hero-section,
+.footer-section {
+    background-color: #452216;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
