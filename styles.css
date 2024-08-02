@@ -22,7 +22,6 @@ body {
 .info-container,
 .quote-container,
 .signup-container {
-    border: 1px solid greenyellow;
     width: 70%;
 }
 
@@ -97,11 +96,6 @@ button {
     font-size: 16px;
 }
 
-.hero-text,
-.hero-image {
-    border: 1px solid hotpink;
-}
-
 .hero-text {
     flex: 1;
 }
@@ -110,4 +104,37 @@ button {
     flex: 2;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Info Section */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 400px ;
+}
+
+.info-gallery {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #000000;
+    padding: 16px 0;
+}
+
+.info-card {
+    width: 180px;
+}
+
+.card-img {
+    border-radius: 10px;
 }
