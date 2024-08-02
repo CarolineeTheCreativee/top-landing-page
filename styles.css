@@ -152,7 +152,6 @@ h2 {
 }
 
 .quote {
-    border: 1px solid hotpink;
     width: 50%;
 }
 
@@ -166,4 +165,27 @@ figcaption {
     text-align: right;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* CTA Section */
+
+.signup-section {
+    min-height: 450px;
+    align-items: center;
+}
+.signup-container {
+    background-color: #faebd7;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-bttn {
+    
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
 }
