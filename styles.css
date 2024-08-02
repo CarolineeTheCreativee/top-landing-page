@@ -14,7 +14,6 @@ body {
 .info-section,
 .quote-section,
 .signup-section {
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
 }
@@ -24,7 +23,7 @@ body {
 .quote-container,
 .signup-container {
     border: 1px solid greenyellow;
-    width: 75%;
+    width: 70%;
 }
 
 .hero-section,
@@ -33,8 +32,19 @@ body {
     color: #ffffff;
 }
 
+
+/* Hero Section */
+.hero-container {
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+
+}
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
 }
 
 ul {
@@ -45,4 +55,59 @@ ul {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f5f5dc;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f5f5dc;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button {
+    background-color: #fbdfa2;
+    color: #000000;
+    padding: 6px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hero-text,
+.hero-image {
+    border: 1px solid hotpink;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
 }
