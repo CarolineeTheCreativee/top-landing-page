@@ -174,7 +174,8 @@ figcaption {
     align-items: center;
 }
 .signup-container {
-    background-color: #faebd7;
+    background-color: #452216;
+    color: #faebd7;
     height: 200px;
     display: flex;
     align-items: center;
