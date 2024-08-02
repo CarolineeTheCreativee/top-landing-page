@@ -138,3 +138,32 @@ h2 {
 .card-img {
     border-radius: 10px;
 }
+
+/*Quote Section*/
+.quote-section {
+    background-color: #faebd7;
+}
+
+.quote-container {
+    min-height: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    border: 1px solid hotpink;
+    width: 50%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #56290e;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+}
